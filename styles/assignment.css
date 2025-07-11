@@ -1,0 +1,311 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header{
+    background-image: url('../images/Hero-bg.png');
+}
+nav button:hover{
+    background-color: red;
+}
+nav button-2{
+    background-color: red;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    color: blue;
+    font-size: 34px;
+    font-weight: 600px;
+    margin-left: 150px;
+}
+.button{
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 12px 36px 12px 36px;
+    margin-right: 150px;
+    
+}
+.content{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.button-2{
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 12px 36px 12px 36px;
+    margin-right: 150px;
+    margin-left: 633px;
+    margin-top: 37px;
+    margin-bottom: 152px;
+}
+.action{
+    margin-top: 116px;
+    margin-left: 100px;
+    display: flex;
+    gap: 500px;
+    margin-bottom: 200px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+}
+.action-description{
+    font-size: 24px;
+    color: lightslategray
+}
+.button-3{
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    width: 250px;
+    height: 48px;
+    font-weight: bold;
+    border-radius: 150px;
+    padding: 12px 36px 12px 36px;
+}
+.button-3:hover{
+    background-color: red;
+}
+.image{
+    width: 1140px;
+    height: 328px;
+    justify-content: right;
+    border-radius: 20px;
+    padding: 40px;
+}
+.productive-user-section{
+    background-color: #D9D7FF;
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+.productive{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    padding: 50px 142px 50px 142px;
+}
+.productive-user{
+    display: flex;
+    gap: 158px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.productive-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 50px;
+}
+.productive-sub-title{
+    font-size: 20px;
+    color: lightslategray;
+    text-align: center;
+}
+.user-title{
+    color: black;
+}
+.users-feedback{
+    margin-left: 51px;
+    margin-right: 51px;
+}
+.what{
+    margin-top: 137px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.box-1{
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 24px #FFFFFF;
+}
+.box-2{
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 24px #FFFFFF;
+}
+.box-3{
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 24px #FFFFFF;
+}
+.text{
+    display: block;
+}
+.user{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 14px;
+    gap: 20px;
+}
+.image-2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.ready{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 208px;
+}
+.template{
+    color: lightslategray;
+    text-align: center;
+}
+.button-4{
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    width: 250px;
+    height: 48px;
+    font-weight: bold;
+    border-radius: 150px;
+    padding: 12px 36px 12px 36px;
+    margin-right: 150px;
+    margin-left: 633px;
+    margin-top: 37px;
+    margin-bottom: 152px;
+}
+.button-4:hover{
+    background-color: red;
+}
+.image-3{
+    margin-bottom: 100px;
+    width: 840px;
+    height: 367px;
+    border-radius: 20px;
+    padding: 48px;
+    margin-left: 300px;
+    margin-right: 299px;
+}
+.touch{
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.email{
+    font-size: 15px;
+    margin-left: 130px;
+}
+.name{
+    font-size: 15px;
+    margin-left: 130px;
+}
+.message{
+    font-size: 15px;
+    margin-left: 130px;
+}
+.form{
+    margin-right: 150px;
+    width: 50%;
+}
+form input[type="email"] , form input[type="text"] , form input[type="textarea"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-left: 130px;
+}
+form textarea{
+    margin-left: 130px;
+    width: 497px;
+    height: 135px;
+
+}
+.btn-primary{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.button-5{
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    width: 497px;
+    height: 62px;
+    font-weight: bold;
+    border-radius: 150px;
+    padding: 12px 36px 12px 36px;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.button-5:hover{
+    background-color: red;
+}
+.logo-2{
+    color: blue;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600px;
+    margin-top: 104px;
+    margin-right: 70px;
+}
+.footer-subtitle{
+    text-align: center;
+    margin-top: 8px;
+    color: #8987A1;
+    margin-left: 454px;
+    margin-right: 455px;
+    margin-top: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    margin-top: 8px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 454px;
+    margin-right: 455px;
+}
+div{
+    color: #8987A1;
+}
+.link{
+    align-items: center;
+    display: flex;
+    margin-left: 550px;
+    margin-right: 550px;
+    gap: 48px;
+    text-decoration: none;
+}
+
